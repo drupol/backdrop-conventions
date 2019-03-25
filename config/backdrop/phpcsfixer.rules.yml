@@ -22,15 +22,16 @@ parameters:
     class_attributes_separation: false
     declare_equal_normalize:
       space: single
-    Drupal/blank_line_before_end_of_class: true
-    Drupal/control_structure_braces_else: true
-    Drupal/inline_comment_spacer: true
+    declare_strict_types: false
+    Backdrop/blank_line_before_end_of_class: true
+    Backdrop/control_structure_braces_else: true
+    Backdrop/inline_comment_spacer: true
     # WIP
-    #Drupal/line_length:
+    #Backdrop/line_length:
     #  line_length: 80
     #  inline_short_lines: false
     #  break_long_lines: true
-    Drupal/uppercase_constants: true
+    Backdrop/uppercase_constants: true
     elseif: true
     fully_qualified_strict_types: true
     function_declaration:

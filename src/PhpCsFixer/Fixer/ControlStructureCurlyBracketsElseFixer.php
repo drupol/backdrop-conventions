@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Fixer;
+namespace drupol\BackdropConventions\PhpCsFixer\Fixer;
 
 use PhpCsFixer\Fixer\DefinedFixerInterface;
 use PhpCsFixer\Fixer\WhitespacesAwareFixerInterface;
@@ -106,7 +106,7 @@ final class ControlStructureCurlyBracketsElseFixer implements DefinedFixerInterf
    */
   public function getName()
   {
-    return 'Drupal/control_structure_braces_else';
+    return 'Backdrop/control_structure_braces_else';
   }
 
   /**

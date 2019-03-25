@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Config;
+namespace drupol\BackdropConventions\PhpCsFixer\Config;
 
 use PhpCsFixer\ConfigInterface;
 

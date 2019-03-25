@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Fixer;
+namespace drupol\BackdropConventions\PhpCsFixer\Fixer;
 
 use PhpCsFixer\Fixer\DefinedFixerInterface;
 use PhpCsFixer\FixerDefinition\CodeSample;
@@ -45,7 +45,7 @@ final class UppercaseConstantsFixer implements DefinedFixerInterface
    * {@inheritdoc}
    */
   public function getName() {
-    return 'Drupal/uppercase_constants';
+    return 'Backdrop/uppercase_constants';
   }
 
   /**

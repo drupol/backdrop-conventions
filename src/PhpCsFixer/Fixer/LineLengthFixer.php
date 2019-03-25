@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Fixer;
+namespace drupol\BackdropConventions\PhpCsFixer\Fixer;
 
 use PhpCsFixer\Fixer\ConfigurableFixerInterface;
 use PhpCsFixer\FixerDefinition\FixerDefinitionInterface;
@@ -70,7 +70,7 @@ final class LineLengthFixer implements ConfigurableFixerInterface
    */
   public function getName()
   {
-    return 'Drupal/line_length';
+    return 'Backdrop/line_length';
   }
 
   /**

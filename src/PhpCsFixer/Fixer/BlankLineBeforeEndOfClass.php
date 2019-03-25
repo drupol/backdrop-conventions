@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Fixer;
+namespace drupol\BackdropConventions\PhpCsFixer\Fixer;
 
 use PhpCsFixer\Fixer\DefinedFixerInterface;
 use PhpCsFixer\Fixer\WhitespacesAwareFixerInterface;
@@ -91,7 +91,7 @@ final class BlankLineBeforeEndOfClass implements DefinedFixerInterface, Whitespa
    * {@inheritdoc}
    */
   public function getName() {
-    return 'Drupal/blank_line_before_end_of_class';
+    return 'Backdrop/blank_line_before_end_of_class';
   }
 
   /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions;
+namespace drupol\BackdropConventions;
 
 use GrumPHP\Extension\ExtensionInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

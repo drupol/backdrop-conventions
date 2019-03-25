@@ -1,27 +1,27 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Config;
+namespace drupol\BackdropConventions\PhpCsFixer\Config;
 
-use drupol\DrupalConventions\PhpCsFixer\Fixer\BlankLineBeforeEndOfClass;
-use drupol\DrupalConventions\PhpCsFixer\Fixer\ControlStructureCurlyBracketsElseFixer;
-use drupol\DrupalConventions\PhpCsFixer\Fixer\InlineCommentSpacerFixer;
-use drupol\DrupalConventions\PhpCsFixer\Fixer\UppercaseConstantsFixer;
+use drupol\BackdropConventions\PhpCsFixer\Fixer\BlankLineBeforeEndOfClass;
+use drupol\BackdropConventions\PhpCsFixer\Fixer\ControlStructureCurlyBracketsElseFixer;
+use drupol\BackdropConventions\PhpCsFixer\Fixer\InlineCommentSpacerFixer;
+use drupol\BackdropConventions\PhpCsFixer\Fixer\UppercaseConstantsFixer;
 use PhpCsFixer\Config as PhpCsFixerConfig;
 use PhpCsFixer\Finder;
 use Symfony\Component\Yaml\Yaml;
 
 /**
- * Class Drupal.
+ * Class Backdrop.
  */
-abstract class Drupal extends PhpCsFixerConfig implements Config
+abstract class AbstractBackdrop extends PhpCsFixerConfig implements Config
 {
   /**
    * @var string
    */
-  public static $rules = '/../../../config/drupal/phpcsfixer.rules.yml';
+  public static $rules = '/../../../config/backdrop/phpcsfixer.rules.yml';
 
   /**
-   * Drupal constructor.
+   * AbstractBackdrop constructor.
    *
    * @param string $name
    *   The config name.

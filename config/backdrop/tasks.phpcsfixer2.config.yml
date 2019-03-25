@@ -1,0 +1,2 @@
+parameters:
+  tasks.phpcsfixer2.config: ./vendor/drupol/backdrop-conventions/config/backdrop/php_cs_fixer.config.php

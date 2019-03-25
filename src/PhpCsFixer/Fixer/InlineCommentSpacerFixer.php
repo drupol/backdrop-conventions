@@ -1,6 +1,6 @@
 <?php
 
-namespace drupol\DrupalConventions\PhpCsFixer\Fixer;
+namespace drupol\BackdropConventions\PhpCsFixer\Fixer;
 
 use PhpCsFixer\Fixer\DefinedFixerInterface;
 use PhpCsFixer\FixerDefinition\CodeSample;
@@ -50,7 +50,7 @@ final class InlineCommentSpacerFixer implements DefinedFixerInterface
    * {@inheritdoc}
    */
   public function getName() {
-    return 'Drupal/inline_comment_spacer';
+    return 'Backdrop/inline_comment_spacer';
   }
 
   /**
