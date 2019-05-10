@@ -20,6 +20,9 @@ parameters:
       position_after_functions_and_oop_constructs: same
     cast_spaces: true
     class_attributes_separation: false
+    compact_nullable_typehint: true
+    concat_space:
+      spacing: one
     declare_equal_normalize:
       space: single
     declare_strict_types: false
@@ -31,20 +34,37 @@ parameters:
     #  line_length: 80
     #  inline_short_lines: false
     #  break_long_lines: true
+    # WIP
+    # Drupal/new_line_on_multiline_array: true
+    Backdrop/try_catch_block: true
     Backdrop/uppercase_constants: true
+    encoding: true
     elseif: true
+    full_opening_tag: true
     fully_qualified_strict_types: true
     function_declaration:
       closure_function_spacing: one
+    function_typehint_space: true
     include: true
     # Disable this rules - it conflicts with 'braces'
     # indentation_type: true
     is_null: true
+    line_ending: true
+    linebreak_after_opening_tag: true
+    logical_operators: true
+    lowercase_cast: true
+    lowercase_keywords: true
     lowercase_static_reference: true
+    magic_constant_casing: true
+    magic_method_casing: true
     method_argument_space: true
+    multiline_whitespace_before_semicolons: true
     native_function_invocation: false
+    new_with_braces: true
+    no_alternative_syntax: false
     no_blank_lines_after_class_opening: false
     no_closing_tag: true
+    no_empty_comment: true
     no_extra_blank_lines:
       tokens:
         - extra
@@ -54,11 +74,28 @@ parameters:
         - throw
         - use
         - use_trait
+    no_leading_import_slash: true
+    no_leading_namespace_whitespace: true
+    no_mixed_echo_print:
+      use: print
+    no_multiline_whitespace_around_double_arrow: true
+    no_null_property_initialization: true
     no_short_echo_tag: true
+    no_singleline_whitespace_before_semicolons: true
+    no_spaces_after_function_name: true
+    no_spaces_around_offset: true
+    no_spaces_inside_parenthesis: true
+    no_trailing_comma_in_list_call: true
+    no_trailing_comma_in_singleline_array: true
+    no_trailing_whitespace: true
     no_trailing_whitespace_in_comment: true
+    no_unneeded_control_parentheses: true
+    no_unneeded_curly_braces: true
     no_unneeded_final_method: true
     no_unused_imports: true
     no_useless_else: true
+    no_useless_return: true
+    no_whitespace_in_blank_line: true
     ordered_class_elements:
       order:
         - use_trait
@@ -91,12 +128,22 @@ parameters:
       space_before: none
     single_blank_line_at_eof: true
     single_line_after_imports: true
-    switch_case_semicolon_to_colon: true
-    switch_case_space: true
+    single_line_comment_style: true
+    single_quote:
+      strings_containing_single_quote_chars: false
+    space_after_semicolon: true
+    standardize_increment: true
+    standardize_not_equals: true
     strict_comparison: true
     strict_param: true
+    switch_case_semicolon_to_colon: true
+    switch_case_space: true
+    ternary_operator_spaces: true
     trailing_comma_in_multiline_array: true
+    trim_array_spaces: true
+    unary_operator_spaces: true
     visibility_required: true
+    whitespace_after_comma_in_array: true
     yoda_style:
       equal: false
       identical: false
