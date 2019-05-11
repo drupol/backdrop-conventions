@@ -5,6 +5,7 @@ namespace drupol\BackdropConventions\PhpCsFixer\Config;
 use drupol\BackdropConventions\PhpCsFixer\Fixer\BlankLineBeforeEndOfClass;
 use drupol\BackdropConventions\PhpCsFixer\Fixer\ControlStructureCurlyBracketsElseFixer;
 use drupol\BackdropConventions\PhpCsFixer\Fixer\InlineCommentSpacerFixer;
+use drupol\BackdropConventions\PhpCsFixer\Fixer\TryCatchBlock;
 use drupol\BackdropConventions\PhpCsFixer\Fixer\UppercaseConstantsFixer;
 use PhpCsFixer\Config as PhpCsFixerConfig;
 use PhpCsFixer\Finder;
@@ -84,6 +85,7 @@ abstract class AbstractBackdrop extends PhpCsFixerConfig implements Config
       new ControlStructureCurlyBracketsElseFixer($this->getIndent(), $this->getLineEnding()),
       new InlineCommentSpacerFixer(),
       new UppercaseConstantsFixer(),
+      new TryCatchBlock($this->getIndent(), $this->getLineEnding()),
     ]);
 
     // @todo: is this really required.
