@@ -83,7 +83,7 @@ final class TryCatchBlock implements DefinedFixerInterface, WhitespacesAwareFixe
    */
   public function getName()
   {
-    return 'Drupal/try_catch_block';
+    return 'Backdrop/try_catch_block';
   }
 
   /**
